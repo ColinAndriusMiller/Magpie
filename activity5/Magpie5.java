@@ -39,6 +39,8 @@ public class Magpie5
 
         else if (findKeyword(statement, "What's your name?", 0) >= 0)
             response = "My name is Julius Ceaser.";
+            else if (findKeyword(statement, "you?", 0) >= 0)
+            response = "I am Julius Ceaser.";
 
         else if (findKeyword(statement, "What are you famous for?", 0) >= 0)
             response = "I was a dictator of the Roman Empire.";
